@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+  "name": "Motivational Quotes",
+  "description": "Extension to reminder you to keep working on any work your doing right now.",
+  "version": "1.0",
+
+  "background": {
+      "service_worker": "background.js"
+  },
+  "permissions": [
+      "notifications",
+      "storage",
+      "alarms"
+  ],
+  "action": {
+      "default_popup": "popup.html"
+      
+  }
+}
